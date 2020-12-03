@@ -6,4 +6,4 @@
 
 Example:
 
-    $ ./advent 1-1 input/day1.txt
+    $ ./advent 1-1 inputs/day1.txt
