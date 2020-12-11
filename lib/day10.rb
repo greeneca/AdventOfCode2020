@@ -40,7 +40,6 @@ module D10P2
           end
         end
       end
-      puts items_to_remove.to_s
       items_to_remove.map! do |group|
         count = 0
         (0..2).each do |i|
@@ -48,7 +47,6 @@ module D10P2
         end
         count
       end
-      puts items_to_remove.to_s
       puts "Total Options: #{items_to_remove.reduce(1, :*)}"
     end
   end
