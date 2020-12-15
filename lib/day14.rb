@@ -65,7 +65,6 @@ module D14P2
             #puts "Pos: #{position}, Val: #{value}"
           end
         end
-        puts mem.count
       end
       puts "Sum: #{mem.values.reduce(:+)}"
     end
